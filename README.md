@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Jacaa/jaca_hello.svg?branch=master)](https://travis-ci.org/Jacaa/jaca_hello)
+
 # JacaHello
 
 My first gem for learning purposes.
