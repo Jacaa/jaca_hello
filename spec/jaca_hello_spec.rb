@@ -5,7 +5,9 @@ RSpec.describe JacaHello do
     expect(JacaHello::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  describe "hello" do
+    it "says Hello world!" do
+      expect {JacaHello.hello}.to output("Hello world!\n").to_stdout
+    end
   end
 end
